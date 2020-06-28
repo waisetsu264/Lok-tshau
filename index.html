@@ -1,6 +1,26 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <!--加入函式庫(回到top按鈕用)-->
+  <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js'></script>
+  <!--加入函式庫(回到top按鈕用)-->
+  <script type="text/javascript">
+    $(function(){
+        $("#gotop").click(function(){
+            jQuery("html,body").animate({
+                scrollTop:0
+            },700);
+        });
+        $(window).scroll(function() {
+            if ( $(this).scrollTop() > 430){
+                $('#gotop').fadeIn("fast");
+            } else {
+                $('#gotop').stop().fadeOut("fast");
+            }
+        });
+    });
+    </script>
+  <!--(回到top按鈕用)-->
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -32,6 +52,12 @@ http://www.tooplate.com/view/2096-individual
       </head>
 
       <body>
+        <!--回到top按鈕-->
+        <b:if cond='data:blog.isMobile'>  <!-- gotop在mobile不顯示的html語法 -->
+        <b:else/>
+        <div id='gotop' ><center>&#65087;</center>Top</div>  <!-- gotop的html語法 -->
+        </b:if>
+        <!--回到top按鈕-->
         <!--上面固定的選單-->
         <ul id=topmenu>
           <a href="#L384">topic</a>

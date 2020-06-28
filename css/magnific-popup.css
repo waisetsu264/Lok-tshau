@@ -1,4 +1,18 @@
 /* Magnific Popup CSS */
+/*回到top按鈕用*/
+#gotop { /* gotop的css語法 */
+  z-index: 1;
+  display: none;
+  position: fixed;
+  right: 90px;
+  bottom: 25px;
+  padding: 10px 15px;  
+  font-size: 15px;
+  background: #777;
+  color: white;
+  cursor: pointer;
+}
+/*回到top按鈕用*/
 /*上面固定的選單格式*/
 #topmenu {
   position: fixed;
