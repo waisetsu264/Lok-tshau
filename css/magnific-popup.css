@@ -6,7 +6,7 @@
   top: 50%;
   width: 8em;
   margin-top: -2.5em;
-  background: #0b0b0b;
+  background:  rgba(0,255,204,0.2);
 }
 /*右邊固定的選單格式*/
 .mfp-bg {
