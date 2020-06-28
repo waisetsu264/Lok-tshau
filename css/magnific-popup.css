@@ -1,4 +1,14 @@
 /* Magnific Popup CSS */
+/*右邊固定的選單格式*/
+#menu {
+  position: fixed;
+  right: 0;
+  top: 50%;
+  width: 8em;
+  margin-top: -2.5em;
+  background: #0b0b0b;
+}
+/*右邊固定的選單格式*/
 .mfp-bg {
   top: 0;
   left: 0;
