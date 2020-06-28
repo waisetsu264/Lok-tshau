@@ -36,8 +36,9 @@ a:focus {
 .tm-text-white { color: #fff; }
 
 .tm-page-1-content { 
-	padding-top: 1vh;
+	padding-top: 30vh;
 	align-items: center;
+	text-align:center
 }
 
 .tm-page-2{
@@ -68,7 +69,7 @@ a:focus {
 }
 
 h1 {
-	font-size: 4rem;
+	font-size: 8rem;
 	text-shadow: 2px 2px 8px #000000;
 	padding-bottom: 20px;
 }
