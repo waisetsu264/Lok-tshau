@@ -11,6 +11,7 @@ body {
 	font-size: 19px;
 	font-weight: 300;
 	overflow-x: hidden;
+	font-family: Microsoft JhengHei;
 }
 
 a, button {
@@ -72,22 +73,26 @@ h1 {
 	font-size: 8rem;
 	text-shadow: 2px 2px 8px #000000;
 	padding-bottom: 20px;
+	font-family: Microsoft JhengHei;
 }
 
 h2 {
 	padding-bottom: 20px;
 	font-weight: bold;
+	font-family: Microsoft JhengHei;
 }
 
 h3 {
 	color: green;
 	padding-bottom: 10px;
+	font-family: Microsoft JhengHei;
 }
 
 h5 {
 	padding-left: 20px;
 	font-size: 2rem;
 	font-weight: bold;
+	font-family: Microsoft JhengHei;
 
 }
 
