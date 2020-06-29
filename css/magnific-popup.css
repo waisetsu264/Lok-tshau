@@ -13,7 +13,7 @@
   cursor: pointer;
 }
 回到top按鈕用*/
-#gotop {
+/*#gotop {
   position:fixed;
   z-index:90;
   right:30px;
@@ -34,11 +34,11 @@
 }*/
 #gotop {
   position: fixed;
-  right: 2;
-  top: 87%;
-  width: 3em;
+  right: 1em;
+  top: 92%;
+  width: 5em;
   margin-top: 1em;
-  background:  rgba(0,0,0,0.7);
+  background:  rgba(0,0,0,0.5);
   border-radius: 10px;
 }
 /*上面固定的選單格式*/
