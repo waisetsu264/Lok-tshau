@@ -20,7 +20,29 @@
         });
     });
     </script>
+    <script type="text/javascript">
+      $(function() {
+          /* 按下GoTop按鈕時的事件 */
+          $('#gotop').click(function(){
+              $('html,body').animate({ scrollTop: 0 }, 'slow');   /* 返回到最頂上 */
+              return false;
+          });
+          
+          /* 偵測卷軸滑動時，往下滑超過400px就讓GoTop按鈕出現 */
+          $(window).scroll(function() {
+              if ( $(this).scrollTop() > 400){
+                  $('#gotop').fadeIn();
+              } else {
+                  $('#gotop').fadeOut();
+              }
+          });
+      });
+      </script>   
   <!--(回到top按鈕用)-->
+<!-- 記得要把按鈕放到網頁上, 否則它不會出現 -->
+<a href="https://www.blogger.com/blogger.g?blogID=2031514508322140995#" id="gotop">
+  <i class="fa fa-angle-up"></i>
+</a>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
