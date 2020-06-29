@@ -74,15 +74,18 @@ http://www.tooplate.com/view/2096-individual
       </head>
 
       <body>
-        <!--回到top按鈕-->
-        <b:if cond='data:blog.isMobile'>  <!-- gotop在mobile不顯示的html語法 -->
+        <!--回到top按鈕
+        <b:if cond='data:blog.isMobile'>   gotop在mobile不顯示的html語法 
         <b:else/>
-        <div id='gotop' ><center>&#65087;</center>Top</div>  <!-- gotop的html語法 -->
+        <div id='gotop' ><center>&#65087;</center>Top</div>  gotop的html語法 
         </b:if>
-        <!--回到top按鈕-->
+        回到top按鈕-->
+        <ul id=gotop>
+          <a href="#top"> Top </a>
+          </ul>
         <!--上面固定的選單-->
         <ul id=topmenu>
-          <a href="#L384"> </a>
+          <a href="#top"> </a>
           </ul>
         <!--上面固定的選單-->
         <!--右邊固定的選單-->
