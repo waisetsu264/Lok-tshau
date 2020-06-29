@@ -39,11 +39,12 @@ a:focus {
 .tm-page-1-content { 
 	padding-top: 30vh;
 	align-items: center;
-	text-align:center
+	text-align:center;
 }
 
 .tm-page-2{
 	max-width: 800px;
+	text-align:left;
 }
 
 .tm-page-4-content { 
@@ -97,12 +98,15 @@ h5 {
 }
 
 .tm-bg-white-transparent {
-	margin: 5px;
+	/*margin: 5px;*/
 	padding: 40px;
 	background-color: #ffffffc4;
-	max-width: 340px;
-	width: 100%;
+	/*max-width: 340px;*/
+	width: auto;
+	height: auto;
 	margin: 20px;
+	border-radius: 10px;
+	overflow-x: visible;
 }
 
 .tm-bg-white-transparent-page3 {

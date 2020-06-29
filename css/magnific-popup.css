@@ -28,9 +28,10 @@
   position: fixed;
   right: 0;
   top: 50%;
-  width: 8em;
+  width: 10em;
   margin-top: -2.5em;
   background:  rgba(0,255,204,0.2);
+  border-radius: 10px;
 }
 /*右邊固定的選單格式*/
 .mfp-bg {
