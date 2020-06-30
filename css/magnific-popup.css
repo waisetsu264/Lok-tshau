@@ -41,7 +41,7 @@
   background:  rgba(0,0,0,0.5);
   border-radius: 10px;
 }
-/*上面固定的選單格式*/
+/*上面固定的選單格式
 #topmenu {
   position: fixed;
   top: 0%;
@@ -50,7 +50,7 @@
   margin-top: 0em;
   background: #0b0b0b;
 }
-/*上面固定的選單格式*/
+上面固定的選單格式*/
 /*右邊固定的選單格式*/
 #menu {
   position: fixed;
@@ -81,7 +81,7 @@
   z-index: 1043;
   position: fixed;
   outline: none !important;
-  -webkit-backface-visibility: hidden; }
+  /*-webkit-backface-visibility: hidden; }*/}
 
 .mfp-container {
   text-align: center;
